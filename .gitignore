@@ -1,0 +1,32 @@
+# Secrets & local env — NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+secrets.*
+
+# Local complaint data (private citizen data)
+data/
+*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model / embedding caches
+.cache/
+*.pt

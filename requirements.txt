@@ -1,0 +1,7 @@
+# CivicLens Mini dependencies (pinned)
+streamlit==1.39.0
+python-dotenv==1.0.1
+
+# OPTIONAL — enables SEMANTIC duplicate detection.
+# If omitted, the app falls back to a clearly-labelled lexical matcher.
+# sentence-transformers==3.1.1

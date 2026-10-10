@@ -1,0 +1,235 @@
+Build an original project that uses open-source or open-weight AI as an important part of how it works.
+Teams could create an agent skill, build with an open-weight large or small language model, or build or adapt an open-source model harness. These are examples within one challenge, and teams may combine them.
+ONE CHALLENGE • MANY WAYS TO BUILD
+Agent Skills, open-weight models, and model harnesses are not separate competitions. They are different approaches teams may use within the same challenge.
+
+2. What You Can Build
+Your team is free to choose its own idea. The following are examples, not a mandatory list:
+•	An AI-powered developer or productivity tool.
+•	A local or self-hosted AI assistant using an open-weight model.
+•	An Agent Skill that gives an agent a useful capability.
+•	A document, knowledge, research, education, or workflow assistant.
+•	An AI application that uses an open-weight LLM/SLM as a core component.
+•	An original model harness or a meaningful adaptation of an existing open-source harness.
+•	A project combining an Agent Skill, open-weight model, and/or model harness.
+•	A completely different idea—as long as it satisfies the challenge requirements.
+3. Suggested Domains
+To help teams who want a starting point, organizers may provide the following five domains. These domains are optional: teams may build in one of them, combine them, or choose a different problem entirely.
+DOMAIN	AREA	EXAMPLE DIRECTION
+01	HEALTH & WELLNESS	Assist with information, workflows, accessibility, prevention, or healthcare-adjacent tasks. Avoid making unsupported medical diagnoses or replacing professional medical advice.
+02	EDUCATION	Build learning assistants, study tools, tutoring workflows, educational content tools, or tools that improve access to knowledge.
+03	DEVELOPER & OPEN SOURCE	Create coding assistants, repository tools, documentation agents, issue/PR workflows, testing tools, or other developer productivity solutions.
+04	COMMUNITY & SOCIAL GOOD	Solve a practical problem for communities, accessibility, public services, local organizations, or social impact.
+05	BUSINESS & PRODUCTIVITY	Build tools for research, documents, operations, automation, customer workflows, knowledge management, or everyday productivity.
+
+4. MUST-HAVE Requirements
+These are mandatory.
+A submission that fails a mandatory requirement may be considered ineligible for judging.
+
+01	Open-source or open-weight AI must be an important part of the project.
+The AI component must contribute meaningfully to how the project works. A superficial AI feature is not enough.
+
+02	The project must be original.
+Teams must contribute meaningful original work. Existing open-source libraries and models may be used as building blocks, subject to their licenses.
+
+03	The project must be published in a public GitHub repository.
+Judges must be able to access the source code and review the project.
+
+04	The repository must use an open-source license.
+Include a recognized open-source license in the repository. Examples include MIT, Apache-2.0, BSD, or GPL-family licenses.
+
+05	An Agent Skill entry must comply with the Agent Skill Open Standard.
+If the project is submitted as an Agent Skill, the implementation must follow the applicable Agent Skill Open Standard requirements.
+
+06	A model-harness entry must include original implementation or meaningful changes.
+Simply configuring, renaming, wrapping, or lightly modifying an existing open-source harness does not qualify as a meaningful harness contribution.
+
+5. What Counts as 'Important AI Usage'?
+The open-source or open-weight AI component should be central enough that removing it would substantially change the project's purpose or functionality.
+•	Good: an open-weight model performs the core reasoning, generation, classification, extraction, coding, or agent behavior.
+•	Good: an Agent Skill provides a meaningful capability to an AI agent.
+•	Good: a model harness controls, routes, evaluates, or orchestrates open models and contains original engineering work.
+•	Weak: an otherwise normal application only adds an AI-generated greeting or a minor text-generation feature.
+•	Weak: the project uses a closed proprietary model as its actual core while an open model is only mentioned or used incidentally.
+6. Originality & Use of Existing Projects
+Open source is encouraged. Teams do not need to reinvent every dependency.
+•	You may use open-source libraries, frameworks, models, datasets, APIs, SDKs, and other legitimate dependencies.
+•	You may start from an existing open-source project when the challenge track permits it, but your contribution must be clearly meaningful.
+•	Do not submit a tutorial copied with minimal changes.
+•	Do not submit a fork with only cosmetic edits, configuration changes, or renamed files.
+•	Clearly acknowledge major third-party components in your README.
+•	Respect all third-party licenses and attribution requirements.
+7. Model-Harness Rules
+A model-harness project is welcome, but the bar is higher than simply connecting an existing tool to a model.
+•	The repository must contain an original implementation OR meaningful changes to an existing open-source harness.
+•	Document exactly what your team implemented or changed.
+•	Explain why the changes matter and what problem they solve.
+•	A simple configuration, prompt change, UI skin, or model swap alone should not be presented as a new harness.
+•	If adapting an existing harness, provide attribution and comply with its original license.
+8. Agent Skill Rules
+If your project includes an Agent Skill, the skill must comply with the Agent Skill Open Standard.
+•	The skill should have a clearly defined purpose and capability.
+•	The repository should make the skill's intended usage understandable.
+•	Include the necessary skill files/instructions and supporting implementation.
+•	Provide at least one practical example demonstrating the skill.
+•	Do not claim compliance without actually following the standard's required structure and conventions.
+9. Submission Requirements
+Each team should submit the following before the submission deadline announced by the organizers:
+•	Public GitHub repository URL.
+•	Project name and short description.
+•	Team member names.
+•	Chosen domain, if using one of the suggested domains.
+•	Description of the open-source/open-weight AI technology used.
+•	Explanation of why AI is an important part of the project.
+•	Instructions for running or testing the project.
+•	Open-source license included in the repository.
+•	Short demo or presentation during the final judging session, if requested by organizers.
+•	For Agent Skills: identify the Agent Skill Open Standard compliance.
+•	For model harnesses: identify the original implementation or meaningful changes made by the team.
+10. Recommended GitHub README Structure
+SECTION	WHAT TO INCLUDE
+Project Name	One clear name and a one-line description.
+Problem	What problem are you solving?
+Solution	What did you build?
+AI Component	Which open-source/open-weight AI technology did you use, and what does it do?
+Architecture	A simple diagram or explanation of how the system works.
+Setup	How can another person run the project?
+Demo	Screenshots, GIFs, video, or example output where useful.
+Team	Names and roles of contributors.
+License	The project's open-source license.
+Acknowledgements	Important open-source projects, models, datasets, or libraries used.
+11. Team & Collaboration Rules
+•	All listed team members should make a meaningful contribution.
+•	Teams may use legitimate open-source tools and AI-assisted development tools.
+•	Participants are responsible for understanding and complying with the licenses of code, models, datasets, and other assets they use.
+•	Do not include secrets, private API keys, passwords, tokens, or other sensitive information in the public repository.
+13. Build-Time Expectations
+•	The project should be demonstrable within the event's available build period.
+•	A smaller working prototype is better than an ambitious project that cannot be demonstrated.
+•	Teams should prioritize a functional core feature, then add polish if time allows.
+•	If a team uses a pre-existing project, the original work and the team's contribution must be clearly distinguishable.
+14. Ineligibility / Disqualification
+Protect the spirit of the challenge.
+The organizers reserve the right to mark a submission ineligible where the mandatory requirements are not met or where the submission materially misrepresents the team's work.
+
+•	No public GitHub repository.
+•	No open-source license.
+•	Open-source/open-weight AI is only incidental or superficial.
+•	Copied or substantially reproduced work without meaningful original contribution.
+•	A model-harness entry without an original implementation or meaningful changes.
+•	An Agent Skill entry that does not comply with the applicable Agent Skill Open Standard requirements.
+•	Use of proprietary material or third-party code in violation of its license.
+•	Submission contains malicious code, secrets, credentials, or content that creates an unacceptable security or safety risk.
+•	Misrepresentation of contributions, authorship, or technology used.
+16. Final Participant Checklist
+•	☐ My project uses open-source or open-weight AI in an important way.
+•	☐ My project contains meaningful original work.
+•	☐ My GitHub repository is public.
+•	☐ My repository has an open-source license.
+•	☐ My README explains the project and setup.
+•	☐ I have documented the AI model/technology used.
+•	☐ If I built an Agent Skill, it follows the Agent Skill Open Standard.
+•	☐ If I built/adapted a model harness, I documented my original or meaningful changes.
+•	☐ I have removed API keys, passwords, tokens, and other secrets.
+•	☐ I can demonstrate the project working.
+17. Quick FAQ
+Q: Do I have to use one of the five domains?
+A: No. The five domains are suggested starting points. Your team may build something outside them.
+Q: Do I have to build an Agent Skill?
+A: No. An Agent Skill is one possible approach within the challenge.
+Q: Do I have to train my own model?
+A: No. You can build with an existing open-weight model. Training a model is optional.
+Q: Can I use open-source libraries?
+A: Yes. Open source is encouraged. Follow the applicable licenses and make sure your own contribution is meaningful.
+Q: Can I combine approaches?
+A: Yes. Teams may combine Agent Skills, open-weight models, model harnesses, and other open-source components.
+Q: Can I use a proprietary AI tool during development?
+A: Development tools may be used where permitted by the event rules, but the submitted project itself must satisfy the challenge's open-source/open-weight AI requirement.
+Q: What if my project is not fully production-ready?
+A: That's okay. A functional, well-demonstrated prototype is appropriate for a mini-hackathon. Focus on a working core experience.
+BUILD. OPEN. SHARE.
+Don't worry about building the biggest project. Build something meaningful, make the AI component matter, open-source your work, and give the community something worth seeing.
+
+
+
+AI model and API
+ Maximum model size: 8 billion parameters (8B) for both local models and cloud-hosted models.
+ Participants may use existing models locally through Ollama, Hugging Face tools, LM Studio, or other
+suitable runtimes, or use a cloud API such as Groq.
+ Disclose the exact model name, parameter size, runtime or API provider, and how the model is integrated
+into the project.
+ Use open-source or open-weight AI meaningfully in the project’s core functionality; a superficial or
+incidental AI feature is not sufficient.
+Examples: Qwen3-4B via Ollama; Llama 3.1 8B Instant via Groq, if available to the account at build time. Check provider
+availability before relying on a hosted model.
+Reference links: Ollama
+| Hugging Face
+Originality and open source
+| LM Studio
+| Groq Console
+| Groq API docs
+ The project must contain meaningful original work by the team.
+ The source code must be available in a public GitHub repository.
+ Include a recognized open-source license, such as MIT or Apache-2.0, where appropriate.
+ Acknowledge significant third-party models, libraries, datasets, tools, and existing projects; respect their
+licenses.
+ Atutorial copy, cosmetic-only fork, or renamed project without meaningful contribution does not qualify as
+original work.
+Repository, security, and demonstrability
+ Include clear setup, run, and test instructions, plus the required model details.
+ Do not publish API keys, passwords, access tokens, private participant data, or other secrets.
+ The project should have a functional core feature that can be demonstrated and explained to judges.
+ For an Agent Skill, follow the applicable Agent Skill Open Standard. For a model harness, document the
+original implementation or meaningful changes.
+PARTICIPANT PROCESS MANUAL • COWORK24, I-10 ISLAMABAD
+PAGE 3
+HACKTOBERFESTISLAMABAD2026 BUILD/OPEN/SHARE
+PARTICIPANTPROCESSMANUAL • COWORK24, I-10ISLAMABAD PAGE4
+03/REPOSITORYGUIDANCE
+README,findings&diagrams
+TheREADMEshouldletsomeoneunderstandtheproduct,runit,andseewhatwasactuallytested.
+READMEcontent
+SECTION WHATTOINCLUDE
+Projectandproblem Projectname,one-linesummary, targetuser,problem,
+solution,andcorefeatures.
+AIcomponent Exactmodelname,parametersize,runtime/APIprovider,
+andwhatthemodeldoes.
+Setupandusage Dependencies, installationcommands,configuration,
+environment-variablenames,runinstructions,anda
+minimalusageexample.
+Testingandfindings Testscenario, input,expectedoutput,actualoutcome,
+pass/failstatus,observedissues,andknownlimitations.
+Teamandlicensing Teammembernamesandcontributions, license,and
+acknowledgementsforthird-partycomponents.
+Diagramstoincludewhenrelevant
+DIAGRAM WHATITSHOULDEXPLAIN
+Systemarchitecture Themaincomponents(forexampleUI,backend,datastore,
+andAImodel/API)andhowtheyconnect.
+DataFlowDiagram(DFD) Howinformationentersthesystem,passesthroughprocesses
+orAIcomponents,touchesanydatastore,andreachesthe
+user.
+Sequence/workflowdiagram Theorderofeventsinanimportant interaction,suchas
+sendinginput tothebackend,callingamodel,andreturning
+theresult.
+ERdiagram Usewhentheprojecthasarelationalorstructureddatabase;
+showentitiesandtheirrelationships.
+Usediagramsthatmatchtheimplementation;keepMermaiddiagramsinREADME.mdaccurateasthearchitecture
+changes.
+ShortMermaidexamples
+Systemarchitecture:showtheuser interface,applicationlogic,andeligiblemodel/API.Renamethecomponentstomatch
+youractualproject.
+```mermaid
+flowchartLR
+U[User]-->UI[App/UI]
+UI-->B[Backend/workflow]
+B-->M[Eligible AImodel/API]
+M-->B
+B-->U
+```
+Dataflow:showhowuser input isprocessedandreturned.Addadatabasenodeonlyifyourprojectusesone.
+```mermaid
+flowchartLR
+U[Userinput]-->P((Main process))
+P-->M[AI model/API]
+M-->P
+P-->O[Outputtouser]
